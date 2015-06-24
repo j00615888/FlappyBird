@@ -14,6 +14,12 @@
 		F4FE05D01B3A347400E5F556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FE05CF1B3A347400E5F556 /* Images.xcassets */; };
 		F4FE05D31B3A347400E5F556 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FE05D11B3A347400E5F556 /* LaunchScreen.xib */; };
 		F4FE05DF1B3A347400E5F556 /* FlappyBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FE05DE1B3A347400E5F556 /* FlappyBirdTests.m */; };
+		F4FE05ED1B3A449600E5F556 /* tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE05E81B3A449600E5F556 /* tunnel.png */; };
+		F4FE05EE1B3A449600E5F556 /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE05E91B3A449600E5F556 /* MainMenu.png */; };
+		F4FE05EF1B3A449600E5F556 /* gameback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4FE05EA1B3A449600E5F556 /* gameback.jpg */; };
+		F4FE05F01B3A449600E5F556 /* BirdUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE05EB1B3A449600E5F556 /* BirdUp.png */; };
+		F4FE05F11B3A449600E5F556 /* BirdDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE05EC1B3A449600E5F556 /* BirdDown.png */; };
+		F4FE06051B3B174900E5F556 /* UIViewController+Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FE06041B3B174900E5F556 /* UIViewController+Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		F4FE05D81B3A347400E5F556 /* FlappyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FE05DD1B3A347400E5F556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4FE05DE1B3A347400E5F556 /* FlappyBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyBirdTests.m; sourceTree = "<group>"; };
+		F4FE05E81B3A449600E5F556 /* tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tunnel.png; sourceTree = "<group>"; };
+		F4FE05E91B3A449600E5F556 /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
+		F4FE05EA1B3A449600E5F556 /* gameback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gameback.jpg; sourceTree = "<group>"; };
+		F4FE05EB1B3A449600E5F556 /* BirdUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdUp.png; sourceTree = "<group>"; };
+		F4FE05EC1B3A449600E5F556 /* BirdDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdDown.png; sourceTree = "<group>"; };
+		F4FE06031B3B174900E5F556 /* UIViewController+Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Game.h"; path = "../UIViewController+Game.h"; sourceTree = "<group>"; };
+		F4FE06041B3B174900E5F556 /* UIViewController+Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Game.m"; path = "../UIViewController+Game.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +98,8 @@
 				F4FE05C71B3A347400E5F556 /* AppDelegate.m */,
 				F4FE05C91B3A347400E5F556 /* ViewController.h */,
 				F4FE05CA1B3A347400E5F556 /* ViewController.m */,
+				F4FE06031B3B174900E5F556 /* UIViewController+Game.h */,
+				F4FE06041B3B174900E5F556 /* UIViewController+Game.m */,
 				F4FE05CC1B3A347400E5F556 /* Main.storyboard */,
 				F4FE05CF1B3A347400E5F556 /* Images.xcassets */,
 				F4FE05D11B3A347400E5F556 /* LaunchScreen.xib */,
@@ -96,6 +111,11 @@
 		F4FE05C21B3A347400E5F556 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE05E81B3A449600E5F556 /* tunnel.png */,
+				F4FE05E91B3A449600E5F556 /* MainMenu.png */,
+				F4FE05EA1B3A449600E5F556 /* gameback.jpg */,
+				F4FE05EB1B3A449600E5F556 /* BirdUp.png */,
+				F4FE05EC1B3A449600E5F556 /* BirdDown.png */,
 				F4FE05C31B3A347400E5F556 /* Info.plist */,
 				F4FE05C41B3A347400E5F556 /* main.m */,
 			);
@@ -199,9 +219,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FE05F11B3A449600E5F556 /* BirdDown.png in Resources */,
 				F4FE05CE1B3A347400E5F556 /* Main.storyboard in Resources */,
 				F4FE05D31B3A347400E5F556 /* LaunchScreen.xib in Resources */,
+				F4FE05EF1B3A449600E5F556 /* gameback.jpg in Resources */,
+				F4FE05EE1B3A449600E5F556 /* MainMenu.png in Resources */,
+				F4FE05F01B3A449600E5F556 /* BirdUp.png in Resources */,
 				F4FE05D01B3A347400E5F556 /* Images.xcassets in Resources */,
+				F4FE05ED1B3A449600E5F556 /* tunnel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FE06051B3B174900E5F556 /* UIViewController+Game.m in Sources */,
 				F4FE05CB1B3A347400E5F556 /* ViewController.m in Sources */,
 				F4FE05C81B3A347400E5F556 /* AppDelegate.m in Sources */,
 				F4FE05C51B3A347400E5F556 /* main.m in Sources */,
