@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+int BirdFlight;
+
 @interface UIViewController (Game)
+{
+    IBOutlet UIImageView *Bird;
+    IBOutlet UIButton *StartGame;
+    
+    NSTimer *BirdMovement;
+}
+
+-(IBAction)StartGame:(id)sender;
+-(void)BirdMoving;
 
 @end
